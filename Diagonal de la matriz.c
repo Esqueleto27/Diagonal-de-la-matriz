@@ -20,3 +20,10 @@ int main() {
             printf("%d ", matriz[i][j]);
         }
         printf("\n");
+         for (i = 0; i < n; i++) {
+        free(matriz[i]);
+    }
+    free(matriz);
+    
+    return 0;
+}
