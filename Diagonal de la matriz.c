@@ -13,3 +13,10 @@ int main() {
 
     for (i = 0; i < n; i++) {
         matriz[i][i] = 1;
+
+         printf("Matriz:\n");
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < n; j++) {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
