@@ -11,4 +11,5 @@ int main() {
     for (i = 0; i < n; i++) {
         matriz[i] = (int *)malloc(n * sizeof(int));
 
-    
+    for (i = 0; i < n; i++) {
+        matriz[i][i] = 1;
